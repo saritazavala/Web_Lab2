@@ -8,18 +8,11 @@ Febrero 05 de 2020
 
 // -1 black
 // 1 white
-const root = document.getElementById('root');
-const matrix =
-    [   [0, 0, 0, 0, 0, 0, 0, 0],
-        [0, 0, 0, 0, 0, 0, 0, 0],
-        [0, 0, 0, 0, 0, 0, 0, 0],
-        [0, 0, 0, -1, 1, 0, 0, 0],
-        [0, 0, 0, 1, -1, 0, 0, 0],
-        [0, 0, 0, 0, 0, 0, 0, 0],
-        [0, 0, 0, 0, 0, 0, 0, 0],
-        [0, 0, 0, 0, 0, 0, 0, 0]
-    ];
 
+//ROOT
+const root = document.getElementById('root');
+
+//DICCIONARY CREATED
 const renderCoins =
     ({
          row,
@@ -32,8 +25,8 @@ const renderCoins =
             state
         };
 
-    };  
-
+    };
+//FIRST THE BACKGROUND AND THE GAME'S BOARD
 const render = (mount) => {
     const board = document.createElement('div');
     document.body.style.backgroundImage = "url(https://i.pinimg.com/originals/0c/96/b1/0c96b19dc89ffdaa7ff737cfc04a095f.png)";
@@ -44,6 +37,21 @@ const render = (mount) => {
     board.style.margin = '60px 425px';
     mount.appendChild(board);
 };
+
+
+
+const matrix={matriz : [
+        [0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0],
+        [0,0,0,1,-1,0,0,0],
+        [0,0,0,-1,1,0,0,0],
+        [0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0]
+    ],
+    turno: 0}
+
 
 render(root);
 
