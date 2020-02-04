@@ -5,18 +5,47 @@ Sara Nohemi Zavala Gutierrez
 Febrero 05 de 2020
 * */
 
-const root = document.getElementById('root');
 
-const renderCoin = ({
-    column = 0,
-    row = 0,
-    state = 0
-}) => {
-    const coin__div = document.createElement('div');
-    coin__div.style.width = `${size}px`;
-    coin__div.style.height = `${size}px`;
-    coin__div.style.borderRadius = `${size / 2}px`;
-    coin__div.style.backgroundColor = color;
-    return coin__div;
-}m
+// -1 black
+// 1 white
+const root = document.getElementById('root');
+const matrix =
+    [   [0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, -1, 1, 0, 0, 0],
+        [0, 0, 0, 1, -1, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0]
+    ];
+
+const renderCoins =
+    ({
+         row,
+         column,
+         state
+     }) => {
+        const CoinsDicc = {
+            row,
+            column,
+            state
+        };
+
+    };  
+
+const render = (mount) => {
+    const board = document.createElement('div');
+    document.body.style.backgroundImage = "url(https://i.pinimg.com/originals/0c/96/b1/0c96b19dc89ffdaa7ff737cfc04a095f.png)";
+    board.style.width = '600px';
+    board.style.height = '600px';
+    board.style.backgroundSize = '600px, 600px';
+    board.style.backgroundImage = "url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Reversiboard480.svg/200px-Reversiboard480.svg.png)";
+    board.style.margin = '60px 425px';
+    mount.appendChild(board);
+};
+
+render(root);
+
+
 
