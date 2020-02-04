@@ -6,13 +6,19 @@ Febrero 05 de 2020
 * */
 
 const root = document.getElementById('root');
-const board__matrix =
-    [   [0, 0, 0, 0, 0, 0, 0, 0],
-        [0, 0, 0, 0, 0, 0, 0, 0],
-        [0, 0, 0, 0, 0, 0, 0, 0],
-        [0, 0, 0, -1, 1, 0, 0, 0],
-        [0, 0, 0, 1, -1, 0, 0, 0],
-        [0, 0, 0, 0, 0, 0, 0, 0],
-        [0, 0, 0, 0, 0, 0, 0, 0],
-        [0, 0, 0, 0, 0, 0, 0, 0]
-    ];
+
+const renderCoin = ({
+    column = 0,
+    row = 0,
+    state = 0
+}) => {
+    const coin__div = document.createElement('div');
+    coin__div.style.width = `${size}px`;
+    coin__div.style.height = `${size}px`;
+    coin__div.style.borderRadius = `${size / 2}px`;
+    coin__div.style.backgroundColor = color;
+    coin__div.style.opacity = isTurnedOn ? 1.0 : 0.25;
+    return coin__div;
+
+}
+
