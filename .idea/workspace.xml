@@ -32,7 +32,8 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Web-Lab2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -57,7 +58,8 @@
       <option name="presentableId" value="Default" />
       <updated>1580779772871</updated>
       <workItem from="1580779805939" duration="10087000" />
-      <workItem from="1580832201102" duration="1954000" />
+      <workItem from="1580832201102" duration="6204000" />
+      <workItem from="1580910848293" duration="6406000" />
     </task>
     <servers />
   </component>
@@ -65,10 +67,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1580828968833">
+    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1580911095569">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580828968833" />
+    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580911095569" />
+    <state x="479" y="242" key="Github.CreatePullRequestDialog" timestamp="1580917809077">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="479" y="242" key="Github.CreatePullRequestDialog/0.0.1366.728@0.0.1366.728" timestamp="1580917809077" />
+    <state x="186" y="0" key="SettingsEditor" timestamp="1580917737582">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580917737582" />
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1580917888401">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1580917888401" />
     <state x="339" y="157" key="run.anything.popup" timestamp="1580831161393">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
