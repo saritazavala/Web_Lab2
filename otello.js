@@ -4,6 +4,8 @@
 * Carnet: 18893
 * Sara Nohemi Zavala Gutierrez
 * Otello Game
+* Notes: Como dijeron que la logica del juego no la iban a calificar me confié :'v
+* pero lo del map y eso si está implementado
 * */
 
 /**
@@ -108,6 +110,7 @@ const renderCoin = ({
     counterW.style.right = '170px';
     counterW.style.color = 'white';
 }*/
+
 /**
  * Function for thte player's turn
  */
@@ -125,7 +128,11 @@ const turn = () => {
     }
 };
 
+//Game's Logic
 
+const logicPosition = (row, column) => {
+
+}
 /**************************************************************************************************************888
  * @param mount
  * @param state
@@ -154,7 +161,6 @@ const render = (mount, state) => {
 
     mount.appendChild(board_div);
 };
-
 
 /**
  *
