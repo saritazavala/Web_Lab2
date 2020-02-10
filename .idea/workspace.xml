@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b1b4247-d8b9-4b9d-b2f8-0334c02e28ac" name="Default Changelist" comment="" />
+    <list default="true" id="2b1b4247-d8b9-4b9d-b2f8-0334c02e28ac" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/otello.js" beforeDir="false" afterPath="$PROJECT_DIR$/otello.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +25,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="saritazavala" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="Web_Lab2" />
+  </component>
   <component name="ProjectId" id="1XK12pGQggI10dHWkkw1WBDUKHU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -32,7 +41,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Web-Lab2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="ServiceViewManager">
@@ -59,7 +68,9 @@
       <updated>1580779772871</updated>
       <workItem from="1580779805939" duration="10087000" />
       <workItem from="1580832201102" duration="6204000" />
-      <workItem from="1580910848293" duration="6406000" />
+      <workItem from="1580910848293" duration="15295000" />
+      <workItem from="1581301207645" duration="3616000" />
+      <workItem from="1581304945407" duration="5425000" />
     </task>
     <servers />
   </component>
@@ -67,10 +78,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1580911095569">
+    <state x="275" y="24" key="#Inspections" timestamp="1580922106150">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580911095569" />
+    <state x="275" y="24" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1580922106150" />
+    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1580922757713">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580922757713" />
     <state x="479" y="242" key="Github.CreatePullRequestDialog" timestamp="1580917809077">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -83,9 +98,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1580917888401" />
-    <state x="339" y="157" key="run.anything.popup" timestamp="1580831161393">
+    <state x="339" y="157" key="run.anything.popup" timestamp="1581303304982">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="157" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1580831161393" />
+    <state x="339" y="157" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1581303304982" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1580922598007">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1580922598007" />
   </component>
 </project>
