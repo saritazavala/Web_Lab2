@@ -11,11 +11,15 @@
  * @type {HTMLElement}
  */
 const player = document.getElementById('player_turn');
+//const counterW = document.getElementById('white_count');
+//const counterB = document.getElementById('black_count');
 /**
  *
  * @type {boolean}
  */
 let texTurn = true;
+//let counter1 = 2;
+//let counter2 = 2;
 
 /**
  *
@@ -67,6 +71,7 @@ const renderCoin = ({
                     APP_STATE.player_t = !player_t;
                     root.innerHTML = '';
                     texTurn = !texTurn;
+                    //counter1+=1;
                     render(root, APP_STATE);
 
                 }
@@ -75,6 +80,7 @@ const renderCoin = ({
                     APP_STATE.player_t = !player_t;
                     root.innerHTML = '';
                     texTurn = !texTurn;
+                    //counter1+=1;
                     render(root, APP_STATE);
                 }
             };
@@ -95,12 +101,19 @@ const renderCoin = ({
     }
     return place;
 };
+
+/*const cont = () =>{
+    counterW.style.fontSize = '45px';
+    counterW.style.top = '300px';
+    counterW.style.right = '170px';
+    counterW.style.color = 'white';
+}*/
 /**
  * Function for thte player's turn
  */
 const turn = () => {
     player.style.fontSize = '45px';
-    player.style.float = 'right'
+    player.style.float = 'right';
     player.style.top = '300px';
     player.style.right = '170px';
     player.style.color = 'white';
@@ -110,13 +123,16 @@ const turn = () => {
     else if (texTurn === true){
         player.innerText = 'White turn';
     }
-}
+};
+
+
 /**************************************************************************************************************888
  * @param mount
  * @param state
  */
 const render = (mount, state) => {
     turn();
+    //cont();
     const board_div = document.createElement('div');
     document.body.style.backgroundImage = "url(https://fondos.io/wp-content/uploads/2019/01/abstract-wallpapers-hd-1230.jpg)";
     board_div.style.backgroundColor = '#317520';

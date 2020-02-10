@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2b1b4247-d8b9-4b9d-b2f8-0334c02e28ac" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/otello.js" beforeDir="false" afterPath="$PROJECT_DIR$/otello.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +75,7 @@
       <workItem from="1580832201102" duration="6204000" />
       <workItem from="1580910848293" duration="15295000" />
       <workItem from="1581301207645" duration="3616000" />
-      <workItem from="1581304945407" duration="6262000" />
+      <workItem from="1581304945407" duration="6800000" />
     </task>
     <servers />
   </component>
