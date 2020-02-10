@@ -1,9 +1,29 @@
+/*
+* Universidad del Valle de Guatemala
+* Sistemas Web
+* Carnet: 18893
+* Sara Nohemi Zavala Gutierrez
+* Otello Game
+* */
 
+/**
+ *
+ * @type {HTMLElement}
+ */
 const player = document.getElementById('player_turn');
+/**
+ *
+ * @type {boolean}
+ */
 let texTurn = true;
 
+/**
+ *
+ * @type {{game__board: number[][], player_t: boolean}}
+ */
 const APP_STATE = {
     player_t: true,
+
     game__board: [
         [0,0,0,0,0,0,0,0],
         [0,0,0,0,0,0,0,0],
@@ -17,6 +37,13 @@ const APP_STATE = {
 };
 
 
+/**
+ *
+ * @param row
+ * @param column
+ * @param state
+ * @returns {HTMLButtonElement}
+ */
 const renderCoin = ({
     row,
     column,
@@ -68,6 +95,9 @@ const renderCoin = ({
     }
     return place;
 };
+/**
+ * Function for thte player's turn
+ */
 const turn = () => {
     player.style.fontSize = '45px';
     player.style.float = 'right'
@@ -81,7 +111,10 @@ const turn = () => {
         player.innerText = 'White turn';
     }
 }
-/**************************************************************************************************************888*/
+/**************************************************************************************************************888
+ * @param mount
+ * @param state
+ */
 const render = (mount, state) => {
     turn();
     const board_div = document.createElement('div');
@@ -106,8 +139,16 @@ const render = (mount, state) => {
     mount.appendChild(board_div);
 };
 
+
+/**
+ *
+ * @type {HTMLElement}
+ */
 const root = document.getElementById('root');
 
+/**
+ * Run xD
+ */
 render(root, APP_STATE);
 
 

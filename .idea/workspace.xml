@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2b1b4247-d8b9-4b9d-b2f8-0334c02e28ac" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/otello.js" beforeDir="false" afterPath="$PROJECT_DIR$/otello.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +43,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\Web_Lab2" />
+    </key>
+  </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
@@ -70,7 +74,7 @@
       <workItem from="1580832201102" duration="6204000" />
       <workItem from="1580910848293" duration="15295000" />
       <workItem from="1581301207645" duration="3616000" />
-      <workItem from="1581304945407" duration="5425000" />
+      <workItem from="1581304945407" duration="6262000" />
     </task>
     <servers />
   </component>
@@ -102,9 +106,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="157" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1581303304982" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1580922598007">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1581311259705">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1580922598007" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1581311259705" />
   </component>
 </project>
